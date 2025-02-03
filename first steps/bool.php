@@ -9,8 +9,12 @@ var_dump($number >= 10);  // true
 var_dump($number == 10);  // true
 var_dump($number != 10);  // false
 
+echo PHP_EOL;
+
 var_dump($number === 10); // true
 var_dump($number !== 10); // false
+
+echo PHP_EOL;
 
 var_dump(value: $number <=> 10); // 0
 var_dump(value: $number <=> 5); // 1
